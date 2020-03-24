@@ -51,5 +51,6 @@ input[type="checkbox"].input-validation-error {
 }
 
 .navbar {
-    background-color: #542563
+    background-color: #542563;
+    color: white;
 }
