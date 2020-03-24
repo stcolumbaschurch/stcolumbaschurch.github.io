@@ -56,9 +56,9 @@ input[type="checkbox"].input-validation-error {
 }
 
 .carousel-item-text{
-    padding-top: 10px;
-    padding-left: 30px;
-    text-align: centre;
-    background-color: #666666;
+    padding-top: 20px;
+    padding-left: 75px;
+    padding-bottom: 20px;
+    background-color: #a3a3a3;
     color: white;
 }    
