@@ -54,3 +54,11 @@ input[type="checkbox"].input-validation-error {
     background-color: #542563;
     color: white;
 }
+
+.carousel-item-text{
+    padding-top: 10px;
+    padding-left: 30px;
+    text-align: centre;
+    background-color: #666666;
+    color: white;
+}    
