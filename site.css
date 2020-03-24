@@ -60,9 +60,9 @@ input[type="checkbox"].input-validation-error {
     padding-bottom: 20px;
     color: white;
     margin-bottom: 15px;
-
     justify-content:center;
-
+    align-content:center;
+    width: 100%
 }   
 
 .carousel-inner{
