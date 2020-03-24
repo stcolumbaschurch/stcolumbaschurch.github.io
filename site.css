@@ -1,6 +1,6 @@
 body {
     padding-top: 0px;
-    background-color: #c600ff;
+    background-color: #ffea2e;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -51,5 +51,5 @@ input[type="checkbox"].input-validation-error {
 }
 
 .navbar {
-    background-color: #ffe72e
+    background-color: #542563
 }
