@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>St Columba's Roman Catholic Church</h1>
+    <h3>Berkhamsted Road, Chesham</h3>
+    <img src="../images/img_5723.jpg" alt="Altar"/>
+</div>
+
+<div>
+    <h3>Mass Live Stream</h3>
+    <i>Embedded Live Stream goes here</i>
+</div>
+
+
+
+<div class="row">
+    <h3 style="margin: 10px;">Useful Links</h3>
+    <div class="col-md-4">
+        <h2>Covid-19 Info</h2>
+        <p>Find out more about the Church's emergency measures regarding the Covid-19 Novel Coronavirus Pandemic. You can also access the Mass Live Streams here</p>
+        <p><a class="btn btn-default" href="{{ url_for('covid19') }}">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Newsletters</h2>
+        <p>Access all the church's recent newsletters. All the latest news from the parish community and the diocese including upcoming events</p>
+        <p><a class="btn btn-default" href="{{ url_for('newsletter') }}">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Image Gallery</h2>
+        <p>View images of the church site, recent parish events and general photos of our parish community</p>
+        <p><a class="btn btn-default" href="{{ url_for('gallery') }}">Learn more &raquo;</a></p>
+    </div>
+</div>
+
+{% endblock %}
