@@ -1,6 +1,38 @@
-{% extends "layout.html" %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St Columba's RC Church</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="site.css" />
+    <script src="/static/scripts/modernizr-2.6.2.js"></script>
+</head>
 
-{% block content %}
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/" class="navbar-brand">St Columba's</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ url_for('home') }}">Home</a></li>
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                    <li><a href="{{ url_for('gallery') }}">Gallery</a></li>
+                    <li><a style="color: red;" href="{{ url_for('covid19') }}">Covid-19</a></li>
+                    <li><a href="{{ url_for('newsletter') }}">Newsletter</a></li>
+                    <li><a href="{{ url_for('archive') }}">Archived Links</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
 <div class="jumbotron">
     <h1>St Columba's Roman Catholic Church</h1>
@@ -34,4 +66,4 @@
     </div>
 </div>
 
-{% endblock %}
+
