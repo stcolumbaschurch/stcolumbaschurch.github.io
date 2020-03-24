@@ -50,3 +50,6 @@ input[type="checkbox"].input-validation-error {
     font-size: 15px;
 }
 
+.navbar {
+    background-color: #ffe72e
+}
