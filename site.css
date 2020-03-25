@@ -50,6 +50,7 @@ input[type="checkbox"].input-validation-error {
     padding: 15px;
     color: black;
     font-size: 15px;
+    border-radius: .3rem;
 }
 
 .navbar {
