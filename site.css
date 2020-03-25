@@ -91,9 +91,11 @@ p{
 }*/
 
 html{
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
-p{
+p, li{
     font-size: 0.25rem;
 }
+
+
