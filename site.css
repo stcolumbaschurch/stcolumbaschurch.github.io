@@ -91,5 +91,9 @@ p{
 }*/
 
 html{
-    font-size: 1vw;
+    font-size: 2vw;
+}
+
+p{
+    font-size: 0.25rem;
 }
