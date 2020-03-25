@@ -65,15 +65,13 @@ input[type="checkbox"].input-validation-error {
 
 .carousel-inner {
     background-color: #542563;
-    margin: 15px;
     border-radius: 0.3rem;
-    align-content: center;
-    margin-right:15px;
+   
 }
 
 @media only screen and (max-width: 768px) {
-    img {
-        display: inline-block;
+    img#responsiveimages {
+        display: flex;
     }
 }
 
