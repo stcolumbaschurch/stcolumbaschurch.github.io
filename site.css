@@ -58,19 +58,15 @@ input[type="checkbox"].input-validation-error {
 }
 
 .carousel-item-text{
-    padding-top: 20px;
     color: white;
-    margin-bottom: 15px;
-    width: 80%;
-    padding-right: 50px;
+    margin: 15px;
+    width: 100%;
 }
 
 .carousel-inner {
     background-color: #1b5c20;
-    margin-top: 15px;
+    margin: 15px;
     border-radius: 0.3rem;
-    padding-right: 50px;
-    margin-bottom: 20px;
     align-content:center;
 }
 
