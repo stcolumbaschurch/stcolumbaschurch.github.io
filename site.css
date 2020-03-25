@@ -72,7 +72,7 @@ input[type="checkbox"].input-validation-error {
 }
 
 @media (max-width:775px) {
-    img#optionalstuff {
+    img#responsiveimages {
         display: block;
     }
 }
