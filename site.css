@@ -45,10 +45,10 @@ input[type="checkbox"].input-validation-error {
 }
 
 .container1 {
-    background-color: rgba(53, 54, 56, 0.8);
+    background-color: #ffe97a;
     margin: 10px;
     padding: 15px;
-    color: white;
+    color: black;
     font-size: 15px;
 }
 
