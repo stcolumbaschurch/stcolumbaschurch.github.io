@@ -69,14 +69,3 @@ input[type="checkbox"].input-validation-error {
    
 }
 
-.responsiveimg{
-    display:none;
-}
-
-@media only screen and (max-width: 768px) {
-    .responsiveimg {
-        width:100%;
-        justify-content:center;
-    }
-}
-
