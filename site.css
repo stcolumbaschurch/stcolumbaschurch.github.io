@@ -60,7 +60,7 @@ input[type="checkbox"].input-validation-error {
 .carousel-item-text{
     color: white;
     margin: 15px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .carousel-inner {
@@ -68,5 +68,6 @@ input[type="checkbox"].input-validation-error {
     margin: 15px;
     border-radius: 0.3rem;
     align-content: center;
+    margin-right:15px;
 }
 
