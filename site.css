@@ -71,19 +71,19 @@ input[type="checkbox"].input-validation-error {
 }
 
 h1{
-    font-size:8vw;
-}
-
-h2{
     font-size:6vw;
 }
 
+h2{
+    font-size:4vw;
+}
+
 h3{
-    font-size: 5vw
+    font-size: 3vw
 }
 
 h4{
-    font-size: 4vw;
+    font-size: 2vw;
 }
 
 p{
