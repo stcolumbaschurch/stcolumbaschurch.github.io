@@ -71,3 +71,9 @@ input[type="checkbox"].input-validation-error {
     margin-right:15px;
 }
 
+@media (max-width:775px) {
+    img#optionalstuff {
+        display: block;
+    }
+}
+
