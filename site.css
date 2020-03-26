@@ -71,8 +71,8 @@ input[type="checkbox"].input-validation-error {
 }
 
 .cardimg{
-    max-width: 350px;
-    height: auto;
+    max-height: 350px;
+    width: auto;
 }
 
 
