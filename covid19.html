@@ -1,57 +1,133 @@
-﻿{% extends "layout.html" %}
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St Columba's RC Church</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="site.css" />
+    <link href="https://fonts.googleapis.com/css?family=Gotu&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://stcolumbaschurch.github.io/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://stcolumbaschurch.github.io/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://stcolumbaschurch.github.io/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://stcolumbaschurch.github.io/favicon/site.webmanifest">
+    <link rel="mask-icon" href="https://stcolumbaschurch.github.io/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://stcolumbaschurch.github.io/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-config" content="https://stcolumbaschurch.github.io/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- - -->
+</head>
 
-{% block content %}
+<!-- Navbar - Must be included on every page. To show the current page add "active" to the class of the current item -->
 
-<div class="jumbotron">
-    <h1>Covid-19 Emergency Information</h1>
-    <h3>View the emergency measures the parish has put in place to protect our community from Coronavirus</h3>
-</div>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+        <a class="navbar-brand" href="index.html">St Columba's</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbox collapse navbar-collapse " id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="masstimes.html">Mass Times</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: red;" href="covid19.html">Covid-19</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="archive.html">Archived Links</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-<div class="container1 jumbotron responsive">
-    <h2>A message from Fr Alessandro</h2>
-    <i>
-        To my parishioner family,<br /><br />
+    <!-- - -->
+    <!-- Editable Content-->
 
-        I hope and pray that you and your families are well in this time.   It is with great sadness that we have to suspend the Mass and all celebrations or devotions which include numerous gatherings, but we are still a family and will support each other.<br /><br />
+    <div class="container body-content">
 
-        We have set up a FaceBook page to enable live Mass streaming only (see below) so that we can come together as one family in the presence of Christ.
+        <div class="jumbotron">
+            <h1>Covid-19 Emergency Information</h1>
+            <h3>View the emergency measures the parish has put in place to protect our community from Coronavirus</h3>
+        </div>
 
-        In the short term please use the <a href="mailto:parishsecstcolumba@gmail.com">parish secretary</a> email address to contact us with any questions and check out this page for further details.<br />
+        <div class="container1 jumbotron responsive">
+            <i>
+                "With sadness we announce that all churches will be closed until further notice. 
+                This is in line with the government’s announcement this evening. 
+                We understand the pain this will cause to all those who have found solace in moments of private prayer."
+                    
+                <br /><br />
+                
+                (Message from Facebook Page of RC Diocese of Northampton 23/03/2020)
+            </i>
+            <hr />
+            <h2>A message from Fr Alessandro</h2>
+            <b>
+                To my parishioner family,<br /><br />
 
-        Some days ago I was often singing a song in the Church of Reconciliation in Taizé: "I am sure I shall see the goodness of the Lord in the land of the living. Yes I shall see the goodness of our God, hold firm, trust in the Lord".
+                After this latest update that follows the guidelines of the Government of our country,
+                the risk is that we will feel deeply abandoned... Especially as the doors of our places of prayer,
+                where we went to seek peace and consolation in the last days, have also been shut.  But it is not so:
+                only the buildings have been closed; we are living Churches and as far we keep remain hope through the prayer at home,
+                keeping the hope alive and trusting in the Lord... Churches will never close. The Lord promised his disciples that
+                he would never leave them alone: in every situation of life he would be close to them by sending the Comforter Spirit
+                who would help, support and comfort them.<br /><br />
+                We will increase our live streaming daily and I will celebrate the Eucharist for each one of you everyday.
+                Very soon we will update websites and Facebook pages so you can see what is happen every day!<br /><br />
 
-        My prayer is that we put into the hands of our Father our lives, abandoning ourselves in Him! <br /><br />
+                We are family: we will never be alone.<br />
+                God Bless you all<br />
 
-        Remember you are not alone!!!<br />
+                In fiducia cordis,<br /><br />
+                Fr Alessandro Renò
+            </b>
+            <hr />
+            <b>Effective immediately:</b>
+            <ul>
+                <li>
+                    All public Masses at St Columba's are suspended from Friday 20th March 2020
+                </li>
 
-        God Bless you all<br />
+                <li>
+                    Fr Alessandro will live stream his <strong>private</strong> celebration of Mass on Sunday at 10am via YouTube - <a href="https://www.youtube.com/channel/UCmxhag9LOLa1NP-b7LqqEAQ">Click Here</a> to see IHM and St Columba's joint YouTube channel
+                </li>
 
-        In fiducia cordis,<br /><br />
-        Fr Alessandro Renò
-    </i>
-    <hr />
-    <b>Effective immediately and in line with the letter from the Catholic Bishops Conference of England and Wales (CBCEW):</b>
-    <ul>
-        <li>
-            All public Masses at St Columba's are suspended from Friday 20th March 2020
-        </li>
+                <li>
+                    In line with the latest Government instruction our Church will remain closed.
+                </li>
 
-        <li>
-            Fr Alessandro will live stream his private celebration of Mass on Sunday at 10am via the St Columba Facebook page - please click link.   Please note the church will be closed while Fr Alessandro celebrates Mass.
-        </li>
+                
+            </ul>
 
-        <li>
-            Each day our church will remain open for personal prayer and reflection between 9am and 4pm  The only exceptions are Sunday and Monday from 9 to 11am when the Church will be closed.
-        </li>
+        </div>
 
-        <li>
-            In visiting our church everyone must observe with great care the practices of hygiene and guidance on social distancing.
-        </li>
-        <li>
-            The Sacrament of Reconciliation will be available on request ensuring hygiene and social distancing rules apply.   Please phone the presbytery directly.
-        </li>
-    </ul>
+    </div>
 
-</div>
+    <!--  -->
+    <!-- Please leave - this must be included on every page -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-{% endblock %}
+</body>
+</html>
+
+<!-- - -->
