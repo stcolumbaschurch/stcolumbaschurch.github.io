@@ -73,6 +73,14 @@ input[type="checkbox"].input-validation-error {
 .cardimg{
     max-height: 350px;
     width: auto;
+
 }
+
+@media only screen and (max-width: 600px) {
+    .iframehidden {
+        display: none;
+    }
+}
+
 
 
