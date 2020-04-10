@@ -82,5 +82,10 @@ input[type="checkbox"].input-validation-error {
     }
 }
 
+.gold{
+    background: radial-gradient(#ffd800, #ff6a00);
+    background-repeat: no-repeat;
+}
+
 
 
