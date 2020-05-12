@@ -94,8 +94,8 @@ input[type="checkbox"].input-validation-error {
     border-width: 3px;
 }
 
-.yt-icon :hover{
-    border-width:5px;
+.yt-icon:hover{
+    border-width:7px;
 }
 
 
