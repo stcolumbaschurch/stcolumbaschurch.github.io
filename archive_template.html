@@ -1,4 +1,16 @@
-﻿<!DOCTYPE html>
+﻿<!-- Any thing in green is a comment -->
+<!-- This is the template for the archive pages on our website. Read through all the green comments to see what you should and shouldn't change.
+    It is important to remember that this is a live site which people visit everyday so please try not to break it :-) -->
+
+<!--I would like to keep this page as a template rather than one that gets edited so please copy the text on this page to a new HTML document naming accordingly-->
+
+<!-- To create a new HTML doc in Github, go to the code screen, click create new file, name it relevantname.html
+    You can then paste the code from this template into that file-->
+
+
+<!-- This is the head section. It involves links to what are called stylesheets and fonts. Style sheets give information about how things look on the website -->
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -7,7 +19,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="site.css" />
     <link href="https://fonts.googleapis.com/css?family=Gotu&display=swap" rel="stylesheet">
-    <!-- favicon -->
+
+    <!-- favicon - this is the little icon that appears in the tab at the top of the browser -->
     <link rel="apple-touch-icon" sizes="180x180" href="https://stcolumbaschurch.github.io/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://stcolumbaschurch.github.io/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://stcolumbaschurch.github.io/favicon/favicon-16x16.png">
@@ -17,11 +30,12 @@
     <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="msapplication-config" content="https://stcolumbaschurch.github.io/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <!-- - -->
+    <!-- ------------------------------------------------------------------------------------- -->
 </head>
-
-<!-- Navbar - Must be included on every page. To show the current page add "active" to the class of the current item -->
-
+<!-- -------------------------------------------------------------------------------------------- -->
+<!-- Navbar - because these pages have been archived, we are including a simpler navbar than on the rest of the site because we don't want to have to change it in future  -->
+<!-- There are only links to permanent pages like HOME, ABOUT, CONTACT, etc -->
+<!-- Please leave this navbar as it is. There is no requirement to change anything in it -->
 <body>
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
         <a class="navbar-brand" href="index.html">St Columba's</a>
@@ -42,16 +56,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="news.html">News</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: red;" href="covid19.html">Covid-19</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="archive.html">Archived Links</a>
                 </li>
             </ul>
@@ -59,20 +67,46 @@
     </nav>
 
     <!-- - -->
-    <!-- Editable Content-->
+    <!-- Editable Content - Anything that needs changing on the page is between HERE!!!!!!!!!!!!!-->
+
+
 
     <div class="container body-content">
+        <!-----------------------------TITLE SECTION------------------------------------------>
+
+        <!-- One thing that you won't have learnt about in the course is Jumbotrons - these are pre-made title containers which I have used acrros the site for the title of each page. 
+            If you look at other pages on the site, it is the grey box at the top with the title in it-->
         <div class="jumbotron">
-            <h1>Church Life and Groups</h1>
-            <h3>Find out about different groups within the parish which you can join</h3>
+            <!-- <h1> is the main page title. It is the biggest font size. Remove <!-- to make the title active rather than just a comment-->
+            <h1><!--Title goes here--></h1>
+            <!-- <h3> is the page description. As above, remove <!-- to make the title active -->
+            <h3><!--Description goes here--></h3>
         </div>
 
+        <!-- ----------------------END OF TITLE SECTION---------------------------------------- -->
 
+        <!-----------------------------MAIN PAGE ARTICLE CONTENT----------------------------------->
+
+        <!--I like to put the main page content in what's called a container which just means that it's not touching the sides-->
+
+        <div class="container">
+            <article>
+
+
+
+
+
+
+
+            </article>
+        </div>
+
+        <!------------------------------END OF MAIN PAGE CONTENT-------------------------------------->
 
     </div>
 
-    <!--  -->
-    <!-- Please leave - this must be included on every page -->
+    <!-- AND HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <!-- These are scripts which use a language called Javascript.  Please leave them alone as they allow the page to do things like shrink the navbar on small screens etc-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -80,4 +114,4 @@
 </body>
 </html>
 
-<!-- - -->
+<!-- Nothing should be added after this point as it will not have any effect on the page and will most likely break it -->
