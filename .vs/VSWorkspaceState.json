@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\images"
+    "\\files",
+    "\\files\\mass-sheets",
+    "\\images",
+    "\\images\\fhc-2020"
   ],
-  "SelectedNode": "\\covid19-advice.html",
+  "SelectedNode": "\\files\\mass-sheets\\holy-trinity.pdf",
   "PreviewInSolutionExplorer": false
 }

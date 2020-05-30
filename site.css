@@ -82,9 +82,10 @@ input[type="checkbox"].input-validation-error {
     }
 }
 
-.gold{
-    background: radial-gradient(#ffd800, #ff6a00);
+.message-colour{
+    background: radial-gradient(#a20000 , #ff0000);
     background-repeat: no-repeat;
+    color: white;
 }
 
 .yt-icon {
