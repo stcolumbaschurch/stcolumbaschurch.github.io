@@ -83,9 +83,9 @@ input[type="checkbox"].input-validation-error {
 }
 
 .message-colour{
-    background: radial-gradient(#a20000 , #ff0000);
+    background: radial-gradient(#ffcc00 , #ffe97a);
     background-repeat: no-repeat;
-    color: white;
+    color: black;
 }
 
 .yt-icon {
