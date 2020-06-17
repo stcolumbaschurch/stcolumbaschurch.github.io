@@ -93,7 +93,7 @@
                 <div class="col-md-7">
                     <div class="card" style="padding: 15px; display: flex; justify-content: center;">
                         <h5 class="card-title">Music Practice - Listen to the hymns which will be sung at Sunday Mass</h5>
-                        <a href="#musicCard" class="btn btn-primary" role="button">Learn More >></a>
+                        <a href="#musicCard" class="btn btn-primary" role="button" onclick="toggleActiveBorder()">Learn More >></a>
 
                     </div>
 
@@ -313,7 +313,7 @@
                     <div class="card-body" id="musicCard">
                         <h5 class="card-title">Music</h5>
                         <p class="card-text">Follow the link to listen to music for this Sunday's Mass so even at home, you can sing along</p>
-                        <a href="../music.html" class="btn btn-primary" role="button">Learn More >></a>
+                        <a href="../music.html" class="btn btn-primary" id="musicCardButton" role="button">Learn More >></a>
                     </div>
                 </div>
             </div>
@@ -331,6 +331,19 @@
 
         </div>
     </div>
+
+    <script>
+        function toggleActiveBorder() {
+            toggleActive();
+            setTimeout(toggleActive, 4000);
+            
+
+        }
+
+        function toggleActive() {
+            document.getElementById("musicCardButton").classList.toggle("activeBorder");
+        }
+    </script>
 
     <!--  -->
     <!-- Please leave - this must be included on every page -->

@@ -93,10 +93,16 @@ input[type="checkbox"].input-validation-error {
     border-style: solid; 
     border-color: red; 
     border-width: 3px;
+    border-radius: 0.3rem;
 }
 
 .yt-icon:hover{
     border-width:7px;
 }
 
-
+.activeBorder {
+    border-style: double;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 5px;
+}
