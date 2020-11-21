@@ -70,8 +70,13 @@ input[type="checkbox"].input-validation-error {
    
 }
 
-.cardimg{
-    max-height: 350px;
+
+.card{
+    margin-top: 5px;
+}
+
+.card-img-top{
+    max-height: 300px;
     width: auto;
 
 }
@@ -98,6 +103,8 @@ input[type="checkbox"].input-validation-error {
 
 .yt-icon:hover{
     border-width:7px;
+    transform: scale(1.05, 1.05);
+    box-shadow: 10px 10px 10px;
 }
 
 .activeBorder {
