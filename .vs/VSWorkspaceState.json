@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\images",
+    "\\images\\cards"
   ],
-  "SelectedNode": "\\events.html",
+  "SelectedNode": "\\christmas-mission.html",
   "PreviewInSolutionExplorer": false
 }
