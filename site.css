@@ -117,5 +117,5 @@ input[type="checkbox"].input-validation-error {
 
 .window-view{
     width: 100%;
-    max-height: 600px
+    max-height: 500px;
 }
