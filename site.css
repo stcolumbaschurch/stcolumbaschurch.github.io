@@ -132,3 +132,7 @@ input[type="checkbox"].input-validation-error {
     display: flex;
     justify-content: center;
 }
+
+.mini-icon{
+    max-height: 15px;
+}
