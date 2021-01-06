@@ -141,14 +141,18 @@ input[type="checkbox"].input-validation-error {
     max-height: 25px;
     margin: 5px;
 }
-.mini-icon:hover{
+.mini-icon:hover {
     filter: invert(1);
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 50%;
 }
 
 
 .special {
     border-style: inset;
-    border-color: yellow;
+    border-color: gold;
     border-width: 3px;
     border-radius: 0.3rem;
 
