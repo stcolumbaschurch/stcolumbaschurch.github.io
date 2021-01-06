@@ -129,7 +129,8 @@ input[type="checkbox"].input-validation-error {
     background-color: #e9ecef;
     color: black;
     text-align: center;
-    
+    justify-content: center;
+    display: flex;
 }
 
 
