@@ -144,8 +144,8 @@ input[type="checkbox"].input-validation-error {
 .mini-icon:hover {
     filter: invert(1);
     border-style: solid;
-    border-color: black;
-    border-width: 3px;
+    border-color: white;
+    border-width: 1px;
     border-radius: 50%;
 }
 
