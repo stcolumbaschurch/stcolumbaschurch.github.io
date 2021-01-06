@@ -135,4 +135,14 @@ input[type="checkbox"].input-validation-error {
 
 .mini-icon{
     max-height: 30px;
+    margin: 10px;
+}
+
+
+.special {
+    border-style: inset;
+    border-color: gold;
+    border-width: 3px;
+    border-radius: 0.3rem;
+
 }
