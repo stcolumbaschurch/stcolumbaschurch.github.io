@@ -129,7 +129,10 @@ input[type="checkbox"].input-validation-error {
     background-color: #e9ecef;
     color: black;
     text-align: center;
+    
 }
+
+
 
 .mini-icon{
     max-height: 30px;
