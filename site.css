@@ -131,13 +131,14 @@ input[type="checkbox"].input-validation-error {
     text-align: center;
     justify-content: center;
     display: flex;
+    padding: 5px;
 }
 
 
 
 .mini-icon{
-    max-height: 30px;
-    margin: 10px;
+    max-height: 25px;
+    margin: 5px;
 }
 .mini-icon:hover{
     filter: invert(1);
