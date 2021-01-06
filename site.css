@@ -129,19 +129,20 @@ input[type="checkbox"].input-validation-error {
     background-color: #e9ecef;
     color: black;
     text-align: center;
-    display: flex;
-    justify-content: center;
 }
 
 .mini-icon{
     max-height: 30px;
     margin: 10px;
 }
+.mini-icon :hover{
+    filter: invert(1);
+}
 
 
 .special {
     border-style: inset;
-    border-color: gold;
+    border-color: yellow;
     border-width: 3px;
     border-radius: 0.3rem;
 
