@@ -135,7 +135,7 @@ input[type="checkbox"].input-validation-error {
     max-height: 30px;
     margin: 10px;
 }
-.mini-icon :hover{
+.mini-icon:hover{
     filter: invert(1);
 }
 
