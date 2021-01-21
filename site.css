@@ -170,3 +170,9 @@ input[type="checkbox"].input-validation-error {
     font-family: 'Comfortaa', cursive;
     color: red;
 }
+
+
+.live{
+    color: red;
+    font-weight: bold;
+}
