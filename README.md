@@ -4,5 +4,5 @@ This is the repository for the St Columba's RC Church Chesham Parish Website.
 ______________________________________________________________________________
 This website was developed by Michael Fahey.
 ______________________________________________________________________________
-It is hosted on Github Pages.
+It is hosted on GitHub Pages.
 ______________________________________________________________________________
