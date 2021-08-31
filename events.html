@@ -55,12 +55,10 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="news.html">News</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" style="color: red;" href="covid19.html">Covid-19</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
+                </li> -->
+                
                 <li class="nav-item">
                     <a class="nav-link" href="archive.html">Archived Links</a>
                 </li>
@@ -88,17 +86,28 @@
             <iframe src="https://calendar.google.com/calendar/embed?height=650&amp;wkst=2&amp;bgcolor=%23E4C441&amp;ctz=Europe%2FLondon&amp;src=bmxxNGVqcTNzZ2hkaXUwaWo4amg0azY1dDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237CB342&amp;showPrint=0&amp;showTz=0&amp;showCalendars=0&amp;hl=en_GB&amp;showTabs=1&amp;showDate=1" style="border:solid 1px #777" width="870" height="650" frameborder="0" scrolling="no"></iframe>
         </div>
 
+        
+
         <hr />
 
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe src="https://drive.google.com/file/d/1t1qXIhht71xhkUy6q-ly2jO0_bczyspb/preview"></iframe>
+
+
+    <div class="footer">
+            
+            <a href="https://www.facebook.com/stcolumbachesham">
+                <img class="mini-icon" src="../images/fb-logo.png" alt="FB" />
+            </a>
+            
+            <i>St Columba's RC Church Chesham &copy; <span id="year"></span></i>
         </div>
-
-        <hr />
-
 
 
     </div>
+
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 
         <!--  -->
         <!-- Please leave - this must be included on every page -->

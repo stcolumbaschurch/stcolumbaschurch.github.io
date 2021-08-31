@@ -55,12 +55,10 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="news.html">News</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" style="color: red;" href="covid19.html">Covid-19</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
+                </li> -->
+                
                 <li class="nav-item">
                     <a class="nav-link" href="archive.html">Archived Links</a>
                 </li>
@@ -190,7 +188,22 @@
         </article>
 
 
+    <div class="footer">
+            
+            <a href="https://www.facebook.com/stcolumbachesham">
+                <img class="mini-icon" src="../images/fb-logo.png" alt="FB" />
+            </a>
+            
+            <i>St Columba's RC Church Chesham &copy; <span id="year"></span></i>
+        </div>
+
+
     </div>
+
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 
     <!--  -->
     <!-- Please leave - this must be included on every page -->
