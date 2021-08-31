@@ -52,9 +52,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="news.html">News</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" style="color: red;" href="covid19.html">Covid-19</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="archive.html">Archived Links</a>
                 </li>
@@ -165,10 +165,25 @@
                 <li>2010 - St Columba's celebrated its Golden Jubilee</li>
                 <li>2020 - St Columba's celebrated its Diamond Jubilee virtually amidst the Coronavirus Pandemic</li>
             </ul>
-
+            <p style="float: right; font-size: 8px;">Website designed by Michael Fahey in April 2020</p>
         </div>
-        <p style="float: right; font-size: 8px;">Website designed by Michael Fahey &copy; 2021</p>
+        
+            <div class="footer">
+            
+            <a href="https://www.facebook.com/stcolumbachesham">
+                <img class="mini-icon" src="../images/fb-logo.png" alt="FB" />
+            </a>
+            
+            <i>St Columba's RC Church Chesham &copy; <span id="year"></span></i>
+        </div>
+
+
     </div>
+
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
