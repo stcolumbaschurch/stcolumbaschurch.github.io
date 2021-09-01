@@ -56,12 +56,10 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="news.html">News</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" style="color: red;" href="covid19.html">Covid-19</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
+                </li> -->
+                
                 <li class="nav-item">
                     <a class="nav-link" href="archive.html">Archived Links</a>
                 </li>
@@ -78,7 +76,7 @@
             <h3>On this page you can access information about the latest events in the parish as well as all the newsletters from recent years</h3>
         </div>
 
-        <div class="jumbotron">
+        <!-- <div class="jumbotron">
             <h4>Current News</h4>
             <hr />
             <iframe class="window-view" src="https://docs.google.com/document/d/e/2PACX-1vTr55ikHTWMFTTXf9exeYEGhIcCysLoNhP19m_o6VdfMD2MuGC4cVEyoMuVfVcjSrwgGK4ee2ExFWlN/pub?embedded=true"></iframe>
@@ -86,19 +84,9 @@
             <div class="embed-responsive embed-responsive-16by9" style="max-height: 500px; ">
                 <iframe class="embed-responsive-item" src="https://drive.google.com/embeddedfolderview?id=1cfTRZgYILIdxVIKH2YiiNB8OljORQveg#list"></iframe>
             </div>
-        </div>
+        </div> -->
 
         <div class="row row-cols-1 row-cols-md-2">
-            <div class="col mb-4">
-                <div class="card">
-                    <img src="../images/cards/calendar.jpg" class="card-img-top img-fluid" alt="Calendar" style="max-height:315.34px;">
-                    <div class="card-body">
-                        <h5 class="card-title">Events</h5>
-                        <p class="card-text">See the parish calendar to find out about upcoming events within the parish community and see any reports on recent events</p>
-                        <a href="../events.html" class="btn btn-primary" role="button">Learn More >></a>
-                    </div>
-                </div>
-            </div>
             <div class="col mb-4">
                 <div class="card">
                     <img src="../images/cards/newspaper.jpg" class="card-img-top img-fluid" alt="Newspaper" style="max-height:315.34px;">
@@ -106,6 +94,17 @@
                         <h5 class="card-title">Newsletter</h5>
                         <p class="card-text">Get this week's newsletter and view and download all the church's newletters from recent years</p>
                         <a href="../newsletter.html" class="btn btn-primary" role="button">Learn More >></a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../images/cards/calendar.jpg" class="card-img-top img-fluid" alt="Calendar" style="max-height:315.34px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Events</h5>
+                        <p class="card-text">See the parish calendar to find out about upcoming events within the parish community and see any reports on recent events</p>
+                        <a href="../events.html" class="btn btn-primary" role="button">Learn More >></a>
                     </div>
                 </div>
             </div>
@@ -124,7 +123,7 @@
                     <img src="../images/cards/Bishop-David.jpg" class="card-img-top img-fluid" alt="Bishop" style="max-height:315.34px;">
                     <div class="card-body">
                         <h5 class="card-title">Bishop David Oakley</h5>
-                        <p class="card-text">Find out more about our new Bishop and read his first pastoral letter</p>
+                        <p class="card-text">Find out more about our Bishop and read his first pastoral letter</p>
                         <a href="../bishop.html" class="btn btn-primary" role="button">Learn More >></a>
                     </div>
                 </div>
@@ -154,7 +153,22 @@
         </div>
 
         
+    <div class="footer">
+            
+            <a href="https://www.facebook.com/stcolumbachesham">
+                <img class="mini-icon" src="../images/fb-logo.png" alt="FB" />
+            </a>
+            
+            <i>St Columba's RC Church Chesham &copy; <span id="year"></span></i>
+        </div>
+
+
     </div>
+
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 
 
         
